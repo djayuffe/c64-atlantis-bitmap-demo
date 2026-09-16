@@ -482,14 +482,9 @@ PartInit:
         rts
 
 BitmapFrameCommon:
-        ; keep the frame common path minimal.  All heavy work is either
-        ; per-part init or phased inside DrawBitmapCellField.
+        ; Keep the frame path minimal; drawing is phased in DrawBitmapCellField.
         inc LocalTick
-        ; The main loop already hard-restores PLA/VIC once per frame.
-        ; Do not duplicate the expensive
-        ; $00/$01/CIA2/VIC register restore inside every effect update.
-        ; ultraopt: no full 1KB color sweep in frame common.
-        ; Colors are updated only for cells that are rendered in this phase.
+        ; The main loop owns the PLA/VIC restore. Colours update with each cell.
         rts
 
 ; 0: Bitmap ColWarp Grid - diagonal XOR warp plasma
