@@ -2,6 +2,8 @@
 
 Pure bitmap-only C64 demo pipeline. The active flow is FX00–FX24, all in VIC bank 2 hires bitmap mode, with the Atlantis Gabber soundtrack.
 
+![Atlantis Bitmap Demo running in VICE](assets/atlantis-bitmap-demo.png)
+
 ## Build
 
 ```bash
