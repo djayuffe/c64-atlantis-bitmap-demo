@@ -1,4 +1,6 @@
 ; ================================================================
+; Copyright (C) 2026 Ulf Bertilsson
+; SPDX-License-Identifier: GPL-3.0-or-later
 ; ATLANTIS BITMAP DEMO
 ; - Twenty-five bitmap-only effects (FX00..FX24)
 ; - Atlantis Gabber soundtrack

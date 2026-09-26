@@ -1,5 +1,8 @@
 # Atlantis Bitmap Demo
 
+Copyright © 2026 Ulf Bertilsson. Licensed under the
+[GNU General Public License v3.0 or later](LICENSE).
+
 Pure bitmap-only C64 demo pipeline. The active flow is FX00–FX24, all in VIC bank 2 hires bitmap mode, with the Atlantis Gabber soundtrack.
 
 ![Atlantis Bitmap Demo running in VICE](assets/atlantis-bitmap-demo.png)
